@@ -23,5 +23,8 @@
     "build-pkg": "./node_modules/@rancher/shell/scripts/build-pkg.sh",
     "serve-pkgs": "./node_modules/@rancher/shell/scripts/serve-pkgs",
     "publish-pkgs": "./node_modules/@rancher/shell/scripts/extension/publish"
+  },
+  "devDependencies": {
+    "@vue/runtime-dom": "3.3.4"
   }
 }

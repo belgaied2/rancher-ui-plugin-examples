@@ -57,7 +57,7 @@ export default Vue.extend({
   },
 
   methods: {
-    clicked($event: MouseEvent) {
+    clicked($event: MouseEvent): void {
       if ($event) {
         $event.stopPropagation();
         $event.preventDefault();
@@ -76,7 +76,7 @@ export default Vue.extend({
       this.$emit('click', cb);
     },
 
-    focus() {
+    focus(): void {
       (this.$refs.btn as HTMLElement).focus();
     }
   }
